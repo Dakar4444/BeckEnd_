@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: url(fon.png);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main {
+    width: 1080px;
+    margin: 0 auto;
+}
+#header {
+    height: 100px;
+    display: flex; 
+    align-items: center;
+}
+.logo, .social {
+    width: 30%;
+    float: left;
+}
+.title {
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+h1 {
+    text-transform: uppercase;
+    font-family: 'Exo 2', sans-serif;
+}
+.social {
+    text-align: right;
+}
+i {
+    font-size: 20px;
+    margin-left: 10px;
+}
+#menu {
+    border: 2px solid blue;
+    margin-bottom: 30px;
+    height: 50px;
+}
+#chat {
+    border: 2px solid green;
+    margin-bottom: 30px;
+    height: 200px;
+    float: left;
+    width: 250px;
+}
+.error {
+    color: red;
+}
+#contant {
+    border: 2px solid red;
+    margin-bottom: 30px;
+    height: 200px;
+    float: right;
+    width: 800px;
+}
+#footer {
+    border: 2px solid yellow;
+    height: 50px;
+}
+.clear {
+    clear: both;
+}
